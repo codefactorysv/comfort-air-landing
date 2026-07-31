@@ -3,7 +3,7 @@ import '../styles/global.css';
 import { businessConfig as c } from '../config';
 const services = ['Emergency Service','Heating Repair','Furnace Maintenance & Repair','Furnace Installation','Oil Burners','Boilers','Heat Pumps','General HVAC','Air Conditioner Repair','Central Air Conditioning','Installation & Replacement','Tune-Ups & Cleaning','Duct Cleaning & Repair','Thermostats','Indoor Air Quality'];
 const year = new Date().getFullYear();
-const base = import.meta.env.BASE_URL;
+const base = `${import.meta.env.BASE_URL}/`;
 ---
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="description" content="Fast, reliable heating and air conditioning service available 24 hours."><title>{c.name} | {c.tagline}</title></head>
 <body>
