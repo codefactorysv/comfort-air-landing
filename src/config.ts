@@ -1,5 +1,5 @@
 export const businessConfig = {
-  name: 'Comfort Air Solutions',
+  name: 'Mario HVAC',
   phoneDisplay: '+1 (832) 902-6434',
   phoneHref: '+18329026434',
   tagline: 'Heating & Air Conditioning',

@@ -11,3 +11,4 @@
 @media(max-width:760px){.service-details{grid-template-columns:1fr}}
 @media(max-width:560px){.city-grid{grid-template-columns:repeat(2,1fr);gap:11px 14px}.map-frame iframe{height:340px}}
 @media(max-width:360px){.city-grid{grid-template-columns:1fr}}
+.legal-secondary{font-size:9px;color:#aaa;margin-top:16px}
