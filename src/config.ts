@@ -1,7 +1,7 @@
 export const businessConfig = {
   name: 'Comfort Air Solutions',
-  phoneDisplay: '(866) 555-0148',
-  phoneHref: '+18665550148',
+  phoneDisplay: '+1 (832) 902-6434',
+  phoneHref: '+18329026434',
   tagline: 'Heating & Air Conditioning',
   homesServed: '10,000+'
 };
