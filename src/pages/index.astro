@@ -13,7 +13,7 @@ const serviceCities = ['Houston, TX','Katy, TX','Sugar Land, TX','Richmond, TX',
 const year = new Date().getFullYear();
 const base = `${import.meta.env.BASE_URL}/`;
 ---
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="description" content="Fast, reliable heating and air conditioning service available 24 hours."><title>{c.name} | {c.tagline}</title></head>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="description" content="Fast, reliable heating and air conditioning service available 24 hours."><link rel="icon" type="image/png" sizes="32x32" href={`${base}favicon-32x32.png?v=2`}><link rel="icon" type="image/png" sizes="16x16" href={`${base}favicon-16x16.png?v=2`}><link rel="shortcut icon" href={`${base}favicon.ico?v=2`}><link rel="apple-touch-icon" sizes="180x180" href={`${base}apple-touch-icon.png?v=2`}><link rel="manifest" href={`${base}manifest.webmanifest?v=2`}><meta name="theme-color" content="#0D3B78"><title>{c.name} | {c.tagline}</title></head>
 <body>
   <header class="site-header"><div class="header-inner wrap"><a class="header-logo" href="#top" aria-label="Mario HVAC home"><img src={`${base}images/mario-hvac-logo.png`} alt="Mario HVAC Houston Texas"></a><a class="top-phone" href={`tel:${c.phoneHref}`}>Call Now: <strong>{c.phoneDisplay}</strong> <span>☎</span></a></div><div class="trust-strip">Your Trusted HVAC Experts - Fast, Reliable &amp; Available 24 Hours.</div></header>
   <main id="top">
